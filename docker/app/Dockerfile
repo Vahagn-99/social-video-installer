@@ -16,7 +16,6 @@ RUN set -eux \
 # Установка пакетов
 RUN set -eux \
     && apk add --no-cache \
-        cron \
         shadow \
         openssh \
         openssl \
@@ -63,9 +62,6 @@ RUN set -eux \
         redis \
         xdebug \
         mongodb \
-        # protobuf \
-        # grpc \
-        # imagick \
     && docker-php-ext-configure \
         gd --enable-gd --with-freetype --with-jpeg --with-webp \
     && docker-php-ext-install -j$(nproc) \
@@ -82,14 +78,11 @@ RUN set -eux \
         redis \
         xdebug \
         mongodb \
-        # protobuf \
-        # grpc \
-        # imagick \
     && apk del -f .build-deps-php \
     && rm -rf /usr/src/php* \
     && rm -rf /tmp/pear
 
-# Решение проблем с установкой imagick https://github.com/Imagick/imagick/issues/643
+# Решение проблем с установкой imagick
 RUN set -eux \
     && apk add --no-cache --virtual .build-deps-imagick \
         $PHPIZE_DEPS \
@@ -126,14 +119,12 @@ RUN ln -vs /usr/local/lib/node_modules/npm/bin/npm-cli.js /usr/local/bin/npm \
 # Установка конфигурации
 RUN cp "$PHP_INI_DIR/php.ini-development" "$PHP_INI_DIR/php.ini"
 
-# Копируем cron файл в контейнер и даем права
-COPY ./scheduler-cron /etc/cron.d/scheduler-cron
-RUN chmod 0644 /etc/cron.d/scheduler-cron
-RUN crontab /etc/cron.d/scheduler-cron
-
 # Установка зависимостей для Supervisor
 RUN apk add --no-cache supervisor
 COPY ./supervisord.conf /etc/supervisord.conf
+
+COPY ./entrypoint.sh /usr/local/bin/entrypoint.sh
+RUN chmod +x /usr/local/bin/entrypoint.sh
 
 # Установка composer
 COPY --from=composer /usr/bin/composer /usr/bin/composer
@@ -151,6 +142,5 @@ RUN git clone https://github.com/zsh-users/zsh-autosuggestions /home/www-data/.o
 # Порты
 EXPOSE 9000 8000 5173 8005
 
-# Старт supervisor для запуска PHP-FPM и Horizon
-CMD ["supervisord", "-c", "/etc/supervisord.conf"]
-
+# запуск PHP-FPM и supervisor
+CMD ["/usr/local/bin/entrypoint.sh"]

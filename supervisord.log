@@ -1,0 +1,161 @@
+2024-11-16 20:07:35,618 INFO supervisord started with pid 1
+2024-11-16 20:07:36,620 INFO spawned: 'horizon' with pid 7
+2024-11-16 20:07:36,621 INFO spawnerr: can't find command '/usr/sbin/php-fpm'
+2024-11-16 20:07:37,009 WARN exited: horizon (exit status 1; not expected)
+2024-11-16 20:07:38,012 INFO spawned: 'horizon' with pid 10
+2024-11-16 20:07:38,013 INFO spawnerr: can't find command '/usr/sbin/php-fpm'
+2024-11-16 20:07:38,256 WARN exited: horizon (exit status 1; not expected)
+2024-11-16 20:07:40,259 INFO spawned: 'horizon' with pid 13
+2024-11-16 20:07:40,260 INFO spawnerr: can't find command '/usr/sbin/php-fpm'
+2024-11-16 20:07:40,537 WARN exited: horizon (exit status 1; not expected)
+2024-11-16 20:07:43,541 INFO spawned: 'horizon' with pid 16
+2024-11-16 20:07:43,542 INFO spawnerr: can't find command '/usr/sbin/php-fpm'
+2024-11-16 20:07:43,542 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-11-16 20:07:44,794 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-16 20:07:44,794 WARN exited: horizon (exit status 1; not expected)
+2024-11-16 20:07:45,796 INFO spawned: 'horizon' with pid 19
+2024-11-16 20:07:46,038 WARN exited: horizon (exit status 1; not expected)
+2024-11-16 20:07:47,041 INFO spawned: 'horizon' with pid 22
+2024-11-16 20:07:47,316 WARN exited: horizon (exit status 1; not expected)
+2024-11-16 20:07:49,320 INFO spawned: 'horizon' with pid 25
+2024-11-16 20:07:49,580 WARN exited: horizon (exit status 1; not expected)
+2024-11-16 20:07:52,584 INFO spawned: 'horizon' with pid 28
+2024-11-16 20:07:52,825 WARN exited: horizon (exit status 1; not expected)
+2024-11-16 20:07:53,827 INFO gave up: horizon entered FATAL state, too many start retries too quickly
+2024-11-16 20:33:35,492 WARN received SIGQUIT indicating exit request
+2024-11-16 20:33:49,514 INFO supervisord started with pid 1
+2024-11-16 20:33:50,516 INFO spawned: 'horizon' with pid 7
+2024-11-16 20:33:50,516 INFO spawnerr: can't find command '/usr/sbin/php-fpm'
+2024-11-16 20:33:51,716 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-16 20:33:51,716 INFO spawnerr: can't find command '/usr/sbin/php-fpm'
+2024-11-16 20:33:53,719 INFO spawnerr: can't find command '/usr/sbin/php-fpm'
+2024-11-16 20:33:56,723 INFO spawnerr: can't find command '/usr/sbin/php-fpm'
+2024-11-16 20:33:56,723 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-11-16 20:34:43,513 INFO supervisord started with pid 122
+2024-11-16 20:34:44,516 INFO spawned: 'horizon' with pid 123
+2024-11-16 20:34:44,517 INFO spawnerr: can't find command '/usr/sbin/php-fpm'
+2024-11-16 20:34:45,700 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-16 20:34:45,700 INFO spawnerr: can't find command '/usr/sbin/php-fpm'
+2024-11-16 20:34:47,702 INFO spawnerr: can't find command '/usr/sbin/php-fpm'
+2024-11-16 20:34:50,706 INFO spawnerr: can't find command '/usr/sbin/php-fpm'
+2024-11-16 20:34:50,706 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-11-16 20:35:08,726 WARN received SIGINT indicating exit request
+2024-11-16 20:35:08,726 INFO waiting for horizon to die
+2024-11-16 20:35:11,729 INFO waiting for horizon to die
+2024-11-16 20:35:11,736 INFO stopped: horizon (exit status 0)
+2024-11-16 20:35:13,410 INFO supervisord started with pid 179
+2024-11-16 20:35:14,412 INFO spawned: 'horizon' with pid 180
+2024-11-16 20:35:14,413 INFO spawnerr: can't find command '/usr/sbin/php-fpm'
+2024-11-16 20:35:15,581 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-16 20:35:15,581 INFO spawnerr: can't find command '/usr/sbin/php-fpm'
+2024-11-16 20:35:16,582 WARN received SIGINT indicating exit request
+2024-11-16 20:35:16,582 INFO waiting for horizon to die
+2024-11-16 20:35:19,586 INFO waiting for horizon to die
+2024-11-16 20:35:19,593 INFO stopped: horizon (exit status 0)
+2024-11-16 20:35:23,817 WARN received SIGQUIT indicating exit request
+2024-11-16 20:35:23,817 INFO waiting for horizon to die
+2024-11-16 20:35:26,821 INFO waiting for horizon to die
+2024-11-16 20:35:29,825 INFO waiting for horizon to die
+2024-11-16 20:35:32,828 INFO waiting for horizon to die
+2024-11-16 20:35:47,672 INFO supervisord started with pid 1
+2024-11-16 20:35:48,673 INFO spawned: 'horizon' with pid 7
+2024-11-16 20:35:48,674 INFO spawnerr: can't find command '/usr/bin/php-fpm'
+2024-11-16 20:35:49,861 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-16 20:35:49,861 INFO spawnerr: can't find command '/usr/bin/php-fpm'
+2024-11-16 20:35:51,863 INFO spawnerr: can't find command '/usr/bin/php-fpm'
+2024-11-16 20:35:54,867 INFO spawnerr: can't find command '/usr/bin/php-fpm'
+2024-11-16 20:35:54,867 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-11-16 20:36:19,420 INFO supervisord started with pid 131
+2024-11-16 20:36:20,422 INFO spawned: 'horizon' with pid 132
+2024-11-16 20:36:20,423 INFO spawnerr: can't find command '/usr/bin/php-fpm'
+2024-11-16 20:36:21,591 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-16 20:36:21,591 INFO spawnerr: can't find command '/usr/bin/php-fpm'
+2024-11-16 20:36:23,593 INFO spawnerr: can't find command '/usr/bin/php-fpm'
+2024-11-16 20:36:26,597 INFO spawnerr: can't find command '/usr/bin/php-fpm'
+2024-11-16 20:36:26,597 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-11-16 20:36:41,613 WARN received SIGINT indicating exit request
+2024-11-16 20:36:41,613 INFO waiting for horizon to die
+2024-11-16 20:36:44,616 INFO waiting for horizon to die
+2024-11-16 20:36:44,624 INFO stopped: horizon (exit status 0)
+2024-11-16 20:36:59,938 WARN received SIGQUIT indicating exit request
+2024-11-16 20:36:59,938 INFO waiting for horizon to die
+2024-11-16 20:37:02,942 INFO waiting for horizon to die
+2024-11-16 20:37:05,945 INFO waiting for horizon to die
+2024-11-16 20:37:08,949 INFO waiting for horizon to die
+2024-11-16 20:37:21,358 INFO supervisord started with pid 1
+2024-11-16 20:37:22,360 INFO spawned: 'horizon' with pid 7
+2024-11-16 20:37:22,363 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-11-16 20:37:23,551 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-16 20:37:23,551 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-11-16 20:37:25,554 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-11-16 20:37:28,558 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-11-16 20:37:28,558 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-11-16 20:37:30,249 INFO supervisord started with pid 101
+2024-11-16 20:37:31,252 INFO spawned: 'horizon' with pid 102
+2024-11-16 20:37:31,252 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-11-16 20:37:32,435 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-16 20:37:32,435 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-11-16 20:37:34,437 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-11-16 20:37:37,441 INFO spawnerr: unknown error making dispatchers for 'php-fpm': EACCES
+2024-11-16 20:37:37,441 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-11-16 20:37:54,460 WARN received SIGINT indicating exit request
+2024-11-16 20:37:54,460 INFO waiting for horizon to die
+2024-11-16 20:37:57,463 INFO waiting for horizon to die
+2024-11-16 20:37:57,471 INFO stopped: horizon (exit status 0)
+2024-11-16 20:43:41,975 WARN received SIGQUIT indicating exit request
+2024-11-16 20:43:41,975 INFO waiting for horizon to die
+2024-11-16 20:43:44,979 INFO waiting for horizon to die
+2024-11-16 20:43:47,983 INFO waiting for horizon to die
+2024-11-16 20:43:50,986 INFO waiting for horizon to die
+2024-11-16 20:44:44,562 INFO supervisord started with pid 1
+2024-11-16 20:44:45,564 INFO spawned: 'horizon' with pid 11
+2024-11-16 20:44:46,743 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-16 20:48:25,992 WARN received SIGQUIT indicating exit request
+2024-11-16 20:48:25,992 INFO waiting for horizon to die
+2024-11-16 20:48:28,996 INFO waiting for horizon to die
+2024-11-16 20:48:32,000 INFO waiting for horizon to die
+2024-11-16 20:48:35,003 INFO waiting for horizon to die
+2024-11-16 20:48:49,814 INFO supervisord started with pid 1
+2024-11-16 20:48:50,816 INFO spawned: 'horizon' with pid 10
+2024-11-16 20:48:52,003 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-16 20:56:46,528 WARN received SIGQUIT indicating exit request
+2024-11-16 20:56:46,528 INFO waiting for horizon to die
+2024-11-16 20:56:49,531 INFO waiting for horizon to die
+2024-11-16 20:56:52,535 INFO waiting for horizon to die
+2024-11-16 20:56:55,539 INFO waiting for horizon to die
+2024-11-16 20:57:06,385 INFO supervisord started with pid 1
+2024-11-16 20:57:07,387 INFO spawned: 'horizon' with pid 12
+2024-11-16 20:57:07,388 INFO reaped unknown pid 11 (exit status 1)
+2024-11-16 20:57:08,579 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-16 21:04:36,039 WARN received SIGQUIT indicating exit request
+2024-11-16 21:04:36,039 INFO waiting for horizon to die
+2024-11-16 21:04:39,043 INFO waiting for horizon to die
+2024-11-16 21:04:42,047 INFO waiting for horizon to die
+2024-11-16 21:04:45,051 INFO waiting for horizon to die
+2024-11-16 21:25:43,906 INFO supervisord started with pid 1
+2024-11-16 21:25:44,909 INFO spawned: 'horizon' with pid 12
+2024-11-16 21:25:44,909 INFO reaped unknown pid 11 (exit status 1)
+2024-11-16 21:25:46,109 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-16 21:27:19,211 WARN received SIGQUIT indicating exit request
+2024-11-16 21:27:19,211 INFO waiting for horizon to die
+2024-11-16 21:27:21,220 INFO stopped: horizon (exit status 0)
+2024-11-16 21:27:25,340 INFO supervisord started with pid 1
+2024-11-16 21:27:26,343 INFO spawned: 'horizon' with pid 12
+2024-11-16 21:27:26,343 INFO reaped unknown pid 11 (exit status 1)
+2024-11-16 21:27:27,528 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-16 21:27:33,535 WARN received SIGQUIT indicating exit request
+2024-11-16 21:27:33,535 INFO waiting for horizon to die
+2024-11-16 21:27:35,543 INFO stopped: horizon (exit status 0)
+2024-11-16 21:27:40,816 INFO supervisord started with pid 1
+2024-11-16 21:27:41,818 INFO spawned: 'horizon' with pid 12
+2024-11-16 21:27:41,819 INFO reaped unknown pid 11 (exit status 1)
+2024-11-16 21:27:43,005 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-16 21:29:24,116 WARN received SIGQUIT indicating exit request
+2024-11-16 21:29:24,116 INFO waiting for horizon to die
+2024-11-16 21:29:27,120 INFO waiting for horizon to die
+2024-11-16 21:29:30,124 INFO waiting for horizon to die
+2024-11-16 21:29:33,128 INFO waiting for horizon to die
+2024-11-16 21:29:52,508 INFO supervisord started with pid 1
+2024-11-16 21:29:53,509 INFO spawned: 'horizon' with pid 12
+2024-11-16 21:29:53,509 INFO reaped unknown pid 11 (exit status 1)
+2024-11-16 21:29:54,696 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
