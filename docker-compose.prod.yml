@@ -15,7 +15,7 @@ services:
         tty: true
         working_dir: /var/www
         ports:
-            - "${APP_VITE_PORT:-5173}:5173"
+            - "5174:5173"
         depends_on:
             - social_installer-mariadb
             - social_installer-redis
