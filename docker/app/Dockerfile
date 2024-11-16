@@ -126,7 +126,7 @@ COPY ./supervisord.conf /etc/supervisord.conf
 COPY ./entrypoint.sh /usr/local/bin/entrypoint.sh
 RUN chmod +x /usr/local/bin/entrypoint.sh
 RUN touch /var/www/supervisord.log && chmod 666 /var/www/supervisord.log
-RUN chown root:root /var/log/cron.log /var/www/supervisord.log
+RUN chown root:root /var/www/supervisord.log
 
 # Установка composer
 COPY --from=composer /usr/bin/composer /usr/bin/composer
