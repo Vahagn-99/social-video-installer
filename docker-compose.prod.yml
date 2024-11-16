@@ -57,7 +57,7 @@ services:
         restart: unless-stopped
         tty: true
         ports:
-            - "${MYSQL_PORT}:3306" # Отключен внешний доступ
+            - "3307:3306" # Отключен внешний доступ
         environment:
             TZ: ${WORKSPACE_TIMEZONE}
             MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
