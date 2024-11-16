@@ -93,7 +93,7 @@ return [
 
     'middleware' => [
         'web',
-        Authorize::class,
+        "custom.auth.basic",
     ],
 
     /*

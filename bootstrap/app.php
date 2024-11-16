@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Middleware\BasicAuthMiddleware;
 use App\Providers\Scheduler;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
@@ -15,7 +16,9 @@ return Application::configure(basePath: dirname(__DIR__))
         Scheduler::class
     ])
     ->withMiddleware(function (Middleware $middleware) {
-        //
+        $middleware->alias([
+            'custom.auth.basic' =>BasicAuthMiddleware::class
+        ]);
     })
     ->withExceptions(function (Exceptions $exceptions) {
         //
