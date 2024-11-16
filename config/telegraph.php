@@ -45,7 +45,7 @@ return [
          *
          * For reference, see https://core.telegram.org/bots/api#using-a-local-bot-api-server
          */
-         'domain' => 'https://legally-fleet-hen.ngrok-free.app',
+         //'domain' => 'https://legally-fleet-hen.ngrok-free.app',
 
         /*
          * If enabled, unknown webhook commands are
