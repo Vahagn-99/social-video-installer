@@ -38,7 +38,7 @@ services:
         restart: unless-stopped
         tty: true
         ports:
-            - "8080:80"
+            - "9090:80"
         depends_on:
             - social_installer-app
         environment:
